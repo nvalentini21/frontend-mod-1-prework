@@ -17,7 +17,7 @@ function printName() {
   console.log("Severus Snape");
 };
 
-printName(); 
+printName();
 printName();
 printName();
 printName();
@@ -26,7 +26,12 @@ printName();
 
 // YOU DO: Write a function named sayHello that logs to the console "Oh, Hello!"
 // Then, call the function 2 times.
+function sayHello(){
+  console.log("Oh, Hello!")
+}
 
+sayHello()
+sayHello()
 //-------------------
 // PART 2: Arguments and Parameters
 //-------------------
@@ -35,18 +40,49 @@ printName();
 // The function should print out the value of the String that was passed in.
 // Then, call the function 3 times, each time, passing it a different name.
 
+function greetMe (name){
+  console.log(name)
+}
 
+var name = "Nicole"
+greetMe(name)
+
+name = "Zack"
+greetMe(name)
+
+name = "Christine"
+greetMe (name)
 
 // YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
 // Then, call that function 3 times, each time, passing in 2 different Numbers.
 
+function doMath(number1, number2){
+  console.log(number1 + number2)
+}
+var number1 = 2
+var number2 = 3
+doMath(number1, number2)
+
+number1 = 4
+number2 = 5
+doMath(number1, number2)
+
+number1 = 6
+number2 = 7
+doMath (number1, number2)
 
 
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 
+function concatenation(string1, string2){
+  console.log(string1 + " and " + string2 + " are going to get married!")
+}
+var string1 = "Zack"
+var string2 = "Nicole"
 
+concatenation(string1, string2);
 
 //-------------------
 // PART 3: Naming is Hard
@@ -61,5 +97,7 @@ What did you name each parameter, and why?
 
 EXPLAIN:
 
-
+I named the function concatenation, to refer back to the instruction given in the question.
+I then named the paramenters string1 and string2, since we are created a concatenation of two strings.
+The arguments for string1 and string2 then become names. 
 */
