@@ -161,4 +161,4 @@ console.log(superHero1);
 //correct syntax, and making small errors that cost me a lot of time.
 
 //Update 11.16.21 - Somehow my ModZero hero did not get pushed over to github, so going to repush it now
-//as per feedback from Cydnee. 
+//as per feedback from Cydnee.
